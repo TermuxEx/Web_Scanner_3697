@@ -1,87 +1,36 @@
-# Web_Scanner_3697
-Scanner_3697 is an automated and powerful vulnerability scanner script built on Nmap. Designed for ethical hackers, bug bounty hunters, and penetration testers, this tool simplifies deep reconnaissance with one command.
----
+# Scanner_3697 🔍
 
-🚀 What Scanner_3697 Does:
+A powerful Nmap-based vulnerability scanner made for ethical hackers & cybersecurity learners.  
+Created by: **Termux Ex [ Umar Ruman ]**
 
-This tool performs multiple targeted scans in one go and reveals:
+## 💻 What it Does
+Scanner_3697 performs a wide variety of automated scans including:
 
-✅ Open Ports & Service Detection
-✅ Website Vulnerability Scanning, including:
+- ✅ Open ports and running services detection
+- 🧪 Web application vulnerabilities:
+  - XSS (Cross-Site Scripting)
+  - CSRF (Cross-Site Request Forgery)
+  - File upload flaws
+- 🔐 SSL/TLS issues (Heartbleed, weak ciphers, expired certs)
+- 📂 Hidden directories & interesting endpoints
+- 📋 HTTP header and method analysis
+- 🧠 CMS and tech stack detection (WordPress, PHP, etc.)
+- ⚔️ General known vulnerabilities using Nmap's script engine
 
-❗ Stored & DOM-Based XSS (Cross-Site Scripting)
+## 🧠 Disclaimer
+> ⚠️ This tool is for **educational purposes only**.  
+> ❌ We are **not responsible for any illegal use**.  
+> ✅ Always scan systems you **own** or have **permission** to test.
 
-❗ CSRF (Cross-Site Request Forgery)
-
-❗ File Upload Exploits
-
-
-✅ Hidden Directories Bruteforce
-✅ HTTP Headers & Allowed Methods
-✅ SSL/TLS Security Checks including:
-
-🔐 Heartbleed
-
-🔐 Weak Cipher Suites
-
-🔐 Expired Certificates
-
-
-✅ CMS & Tech Stack Detection
-
-WordPress version detection
-
-PHP version discovery
-
-
-✅ General Vulnerability Discovery using vuln script category
-
-
----
-
-📥 How to Use:
-
-1. Clone or download the repository
-
-
-2. Give script permission:
-
+## 📥 How to Use
+```bash
 chmod +x scanner_3697.sh
 ./scanner_3697.sh
+```
 
+## 📺 Tutorials & More
+🎥 YouTube: [TermuxEX3697](https://www.youtube.com/@TermuxEX3697)  
+📸 Instagram: [@termux_ex_3697](https://www.instagram.com/termux_ex_3697?igsh=dG9jNDJidGoxNWd2)
 
-3. Enter target IP or domain
-
-
-4. Results will be saved in output.txt
-
-
-
-
----
-
-⚠️ Disclaimer:
-
-> This tool is only for educational and authorized penetration testing purposes.
-The developer and team do not support or encourage any illegal activity.
-Use it only on assets you own or have written permission to test.
-
-
-
-
----
-
-🔗 Connect with the Creator:
-
-🎥 YouTube: TermuxEX3697
-📸 Instagram: @termux_ex_3697
-
-
----
-
-💡 Tags:
-
-nmap termux ethical-hacking cybersecurity vulnerability-scanner scanner_3697
-
-
----
+## ⚡ Tags
+`nmap` `ethical-hacking` `termux` `vulnerability-scanner` `cybersecurity` `scanner_3697`
