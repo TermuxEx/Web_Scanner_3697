@@ -15,7 +15,7 @@ Scanner_3697 performs a wide variety of automated scans including:
 - 📂 Hidden directories & interesting endpoints
 - 📋 HTTP header and method analysis
 - 🧠 CMS and tech stack detection (WordPress, PHP, etc.)
-- ⚔️ General known vulnerabilities using Nmap's script engine
+- ⚔️ General known vulnerabilities 
 
 ## 🧠 Disclaimer
 > ⚠️ This tool is for **educational purposes only**.  
